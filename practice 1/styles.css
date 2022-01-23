@@ -1,0 +1,114 @@
+
+
+
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text color: box-flex-group: ;
+}
+.hero{
+    background:black;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 7%;
+    margin-left: 15px;
+}
+nav .menu-img{
+width: 15px;
+height: 10px;
+margin-right: 20px;
+}
+nav .logo{
+    width: 180px;
+height: 79px;
+margin-right: 20px;
+}
+
+
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;}
+    nav ul li a{
+        text-decoration: gainsboro;
+        color: white;}
+        button{
+            height: 25px;
+            width: 56px;
+            
+            border-radius: 17px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+       transition: background 0.5s;
+        }
+        button span{
+            display: block;
+            background: #999;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: 2px;
+            transition: background 0.5s, margin-left 0.5s;
+
+        }
+            .lampContainer{
+                position: absolute;
+                top:-20px;
+                left: 22%;
+                width: 200px;
+            }
+
+.lamp{
+     height: 15rem;
+
+    width: auto;
+margin-left: 70%;
+}
+.light{ 
+    position: absolute;
+    margin-left: 50%;
+    top: 98%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.textContainer{
+    background-color: black;
+    color: white;
+    max-width: 600px;
+     margin-top:7% ;
+     margin-left: 60%;
+    
+}
+.textContainer h1{
+font-size:50px;
+font-weight: 50px; -----> //to make thick line//
+}
+.textContainer p{
+    margin-bottom: 0rem;
+    
+}
+.active{
+    background: green;
+
+}.active span{
+    background: #fff;
+    margin-left:30px;
+
+}
+.on{
+    opacity: 1;
+
+}
